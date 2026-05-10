@@ -1,0 +1,320 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moviebooking.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission
+14-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:7:5-8:38
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:7:22-78
+16        android:maxSdkVersion="28" />
+16-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:8:9-35
+17    <uses-permission
+17-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:9:5-10:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:9:22-77
+19        android:maxSdkVersion="32" />
+19-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:10:9-35
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:11:5-77
+20-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:11:22-74
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:12:5-66
+21-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:12:22-63
+22
+23    <permission
+23-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.moviebooking.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.moviebooking.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+28    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+30        android:name="android.hardware.camera"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+33        android:name="android.hardware.camera.front"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+34        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+35    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+37        android:name="android.hardware.camera.autofocus"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+40        android:name="android.hardware.camera.flash"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+43        android:name="android.hardware.screen.landscape"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+46        android:name="android.hardware.wifi"
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+48
+49    <application
+49-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:14:5-91:19
+50        android:allowBackup="true"
+50-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:15:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.9.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\c919e84cf21a5073ea88f45ff1a29b85\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="true"
+54        android:hardwareAccelerated="true"
+54-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:22:9-43
+55        android:icon="@mipmap/ic_launcher"
+55-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:16:9-43
+56        android:label="@string/app_name"
+56-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:17:9-41
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:18:9-54
+58        android:supportsRtl="true"
+58-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:19:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.MovieBookingApp"
+60-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:20:9-53
+61        android:usesCleartextTraffic="true" >
+61-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:21:9-44
+62
+63        <!-- Splash / Entry Point -->
+64        <activity
+64-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:25:9-34:20
+65            android:name="com.moviebooking.app.activities.MainActivity"
+65-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:26:13-52
+66            android:exported="true"
+66-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:27:13-36
+67            android:screenOrientation="portrait"
+67-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:28:13-49
+68            android:theme="@style/Theme.MovieBookingApp.Splash" >
+68-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:29:13-64
+69            <intent-filter>
+69-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:30:13-33:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:31:17-69
+70-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:31:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:32:17-77
+72-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:32:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <!-- Authentication Activities -->
+77        <activity
+77-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:37:9-41:58
+78            android:name="com.moviebooking.app.activities.LoginActivity"
+78-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:38:13-53
+79            android:exported="false"
+79-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:39:13-37
+80            android:screenOrientation="portrait"
+80-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:40:13-49
+81            android:windowSoftInputMode="adjustResize" />
+81-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:41:13-55
+82        <activity
+82-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:43:9-47:58
+83            android:name="com.moviebooking.app.activities.RegisterActivity"
+83-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:44:13-56
+84            android:exported="false"
+84-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:45:13-37
+85            android:screenOrientation="portrait"
+85-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:46:13-49
+86            android:windowSoftInputMode="adjustResize" />
+86-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:47:13-55
+87
+88        <!-- Main App Activities -->
+89        <activity
+89-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:50:9-53:52
+90            android:name="com.moviebooking.app.activities.HomeActivity"
+90-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:51:13-52
+91            android:exported="false"
+91-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:52:13-37
+92            android:screenOrientation="portrait" />
+92-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:53:13-49
+93        <activity
+93-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:55:9-58:52
+94            android:name="com.moviebooking.app.activities.MovieDetailsActivity"
+94-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:56:13-60
+95            android:exported="false"
+95-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:57:13-37
+96            android:screenOrientation="portrait" />
+96-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:58:13-49
+97        <activity
+97-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:60:9-63:52
+98            android:name="com.moviebooking.app.activities.SeatSelectionActivity"
+98-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:61:13-61
+99            android:exported="false"
+99-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:62:13-37
+100            android:screenOrientation="portrait" />
+100-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:63:13-49
+101        <activity
+101-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:65:9-68:52
+102            android:name="com.moviebooking.app.activities.BookingConfirmationActivity"
+102-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:66:13-67
+103            android:exported="false"
+103-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:67:13-37
+104            android:screenOrientation="portrait" />
+104-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:68:13-49
+105        <activity
+105-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:70:9-73:52
+106            android:name="com.moviebooking.app.activities.ProfileActivity"
+106-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:71:13-55
+107            android:exported="false"
+107-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:72:13-37
+108            android:screenOrientation="portrait" />
+108-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:73:13-49
+109        <activity
+109-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:75:9-78:52
+110            android:name="com.moviebooking.app.activities.PaymentActivity"
+110-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:76:13-55
+111            android:exported="false"
+111-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:77:13-37
+112            android:screenOrientation="portrait" />
+112-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:78:13-49
+113        <activity
+113-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:80:9-83:52
+114            android:name="com.moviebooking.app.activities.BookingHistoryActivity"
+114-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:81:13-62
+115            android:exported="false"
+115-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:82:13-37
+116            android:screenOrientation="portrait" />
+116-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:83:13-49
+117        <activity
+117-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:85:9-89:71
+118            android:name="com.moviebooking.app.activities.SearchActivity"
+118-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:86:13-54
+119            android:exported="false"
+119-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:87:13-37
+120            android:screenOrientation="portrait"
+120-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:88:13-49
+121            android:windowSoftInputMode="stateVisible|adjustResize" />
+121-->C:\Users\Zayeem Sayyed\Downloads\MovieBookingApp_CineBook\MovieBookingApp\app\src\main\AndroidManifest.xml:89:13-68
+122
+123        <provider
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+125            android:authorities="com.moviebooking.app.androidx-startup"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+126            android:exported="false" >
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+127            <meta-data
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+129                android:value="androidx.startup" />
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\e60bf0ab8a1217670124be7e52d524ab\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+130            <meta-data
+130-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\54cc7886cc943ad374a65879c9657b10\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\54cc7886cc943ad374a65879c9657b10\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+132                android:value="androidx.startup" />
+132-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\54cc7886cc943ad374a65879c9657b10\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+135                android:value="androidx.startup" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+136        </provider>
+137
+138        <uses-library
+138-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+139            android:name="androidx.window.extensions"
+139-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+140            android:required="false" />
+140-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+141        <uses-library
+141-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+142            android:name="androidx.window.sidecar"
+142-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+143            android:required="false" />
+143-->[androidx.window:window:1.0.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\35ca662c6f8203ee03137d19a3c136a1\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+144
+145        <activity
+145-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+146            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+146-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+147            android:clearTaskOnLaunch="true"
+147-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+148            android:screenOrientation="sensorLandscape"
+148-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+149            android:stateNotNeeded="true"
+149-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+150            android:theme="@style/zxing_CaptureTheme"
+150-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+151            android:windowSoftInputMode="stateAlwaysHidden" />
+151-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\aecb72407a4b54120e422afb0063baab\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+152
+153        <receiver
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+154            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+155            android:directBootAware="false"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+156            android:enabled="true"
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+157            android:exported="true"
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+158            android:permission="android.permission.DUMP" >
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+160                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+163                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+166                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+167            </intent-filter>
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+169                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zayeem Sayyed\.gradle\caches\transforms-3\379bd6c3d59dbfb0dcbbc7f06e449ddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+170            </intent-filter>
+171        </receiver>
+172    </application>
+173
+174</manifest>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_payment"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bg_surface"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ── Order Summary Card ────────────────────────────────── -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_order_summary"
+                style="@style/Widget.App.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order Summary"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
+
+                    <!-- Poster + details row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="64dp"
+                            android:layout_height="90dp"
+                            app:cardCornerRadius="8dp">
+                            <ImageView
+                                android:id="@+id/iv_payment_poster"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="12dp"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_payment_movie_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:maxLines="2"/>
+
+                            <TextView
+                                android:id="@+id/tv_payment_theater"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_secondary"
+                                android:textSize="12sp"
+                                android:layout_marginTop="4dp"
+                                android:drawableStart="@drawable/ic_location"
+                                android:drawableTint="@color/text_secondary"
+                                android:drawablePadding="3dp"/>
+
+                            <TextView
+                                android:id="@+id/tv_payment_datetime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/text_secondary"
+                                android:textSize="12sp"
+                                android:layout_marginTop="2dp"
+                                android:drawableStart="@drawable/ic_clock"
+                                android:drawableTint="@color/text_secondary"
+                                android:drawablePadding="3dp"/>
+
+                            <TextView
+                                android:id="@+id/tv_payment_seats"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/primary"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="4dp"
+                                android:drawableStart="@drawable/ic_seat"
+                                android:drawableTint="@color/primary"
+                                android:drawablePadding="3dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Price breakdown -->
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/divider" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:layout_marginBottom="6dp">
+                        <TextView android:layout_width="0dp" android:layout_weight="1"
+                            android:layout_height="wrap_content" android:text="Subtotal"
+                            android:textColor="@color/text_secondary" android:textSize="14sp"/>
+                        <TextView android:id="@+id/tv_subtotal" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="@color/white"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:layout_marginBottom="8dp">
+                        <TextView android:layout_width="0dp" android:layout_weight="1"
+                            android:layout_height="wrap_content" android:text="Convenience Fee (5%)"
+                            android:textColor="@color/text_secondary" android:textSize="14sp"/>
+                        <TextView android:id="@+id/tv_convenience_fee" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="@color/white"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/divider" android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView android:layout_width="0dp" android:layout_weight="1"
+                            android:layout_height="wrap_content" android:text="Total Payable"
+                            android:textColor="@color/white" android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView android:id="@+id/tv_grand_total" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:textColor="@color/accent"
+                            android:textSize="18sp" android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- ── Payment Method Card ───────────────────────────────── -->
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.App.Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Method"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
+
+                    <RadioGroup
+                        android:id="@+id/rg_payment_method"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rb_upi"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="🏦  UPI / BHIM / GPay"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:buttonTint="@color/primary"
+                            android:checked="true"
+                            android:gravity="center_vertical"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="💳  Credit / Debit Card"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:buttonTint="@color/primary"
+                            android:gravity="center_vertical"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_wallet"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="👜  Paytm / PhonePe Wallet"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:buttonTint="@color/primary"
+                            android:gravity="center_vertical"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Secure payment notice -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔒  Secured by 256-bit SSL encryption"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Pay button -->
+            <Button
+                android:id="@+id/btn_pay_now"
+                style="@style/Widget.App.Button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Pay Now"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Progress on top of button -->
+            <ProgressBar
+                android:id="@+id/progress_pay"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/white"
+                android:visibility="gone"
+                android:layout_marginTop="-48dp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

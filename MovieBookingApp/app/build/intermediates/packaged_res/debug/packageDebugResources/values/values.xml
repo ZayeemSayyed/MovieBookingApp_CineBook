@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFD700</color>
+    <color name="bg_card">#242424</color>
+    <color name="bg_dark">#0F0F0F</color>
+    <color name="bg_light">#F5F5F5</color>
+    <color name="bg_surface">#1A1A1A</color>
+    <color name="black">#000000</color>
+    <color name="chip_checked">#E50914</color>
+    <color name="chip_text_checked">#FFFFFF</color>
+    <color name="chip_text_unchecked">#AAAAAA</color>
+    <color name="chip_unchecked">#2A2A2A</color>
+    <color name="divider">#2E2E2E</color>
+    <color name="primary">#E50914</color>
+    <color name="primary_dark">#B20710</color>
+    <color name="primary_light">#FF3D47</color>
+    <color name="ripple">#33E50914</color>
+    <color name="seat_available">#4CAF50</color>
+    <color name="seat_booked">#616161</color>
+    <color name="seat_premium">#2196F3</color>
+    <color name="seat_recliner">#9C27B0</color>
+    <color name="seat_selected">#E50914</color>
+    <color name="seat_text_available">#FFFFFF</color>
+    <color name="seat_text_booked">#9E9E9E</color>
+    <color name="status_cancelled">#F44336</color>
+    <color name="status_confirmed">#4CAF50</color>
+    <color name="status_pending">#FF9800</color>
+    <color name="text_on_light">#212121</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="avatar_size">72dp</dimen>
+    <dimen name="bottom_nav_height">60dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="movie_card_width">160dp</dimen>
+    <dimen name="movie_poster_height">220dp</dimen>
+    <dimen name="seat_margin">3dp</dimen>
+    <dimen name="seat_radius">6dp</dimen>
+    <dimen name="seat_size">30dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_md">15sp</dimen>
+    <dimen name="text_sm">13sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+    <string name="app_name">CineBook</string>
+    <string name="available">Available</string>
+    <string name="booked">Booked</string>
+    <string name="booking_confirmed">Booking Confirmed!</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_payment">Choose Payment Method</string>
+    <string name="city_hint">City</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="credit_debit">Credit / Debit Card</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="download_qr">Download QR</string>
+    <string name="email_hint">Email address</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="go_home">Go to Home</string>
+    <string name="have_account">Already have an account? </string>
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="name_hint">Full name</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="now_showing">Now Showing</string>
+    <string name="ok">OK</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="password_hint">Password</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="phone_hint">Phone number</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="register">Create Account</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="screen_label">SCREEN</string>
+    <string name="search_hint">Search movies, genres, actors…</string>
+    <string name="select_seats">Select Seats</string>
+    <string name="selected">Selected</string>
+    <string name="share_ticket">Share Ticket</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="upi">UPI / BHIM</string>
+    <string name="view_bookings">View My Bookings</string>
+    <string name="wallet">Wallet (Paytm, PhonePe)</string>
+    <style name="Theme.MovieBookingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+
+        
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+        <item name="chipStyle">@style/Widget.App.Chip</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNav</item>
+    </style>
+    <style name="Theme.MovieBookingApp.Splash" parent="Theme.MovieBookingApp">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+    </style>
+    <style name="Widget.App.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/bg_surface</item>
+        <item name="itemIconTint">@color/bottom_nav_state_list</item>
+        <item name="itemTextColor">@color/bottom_nav_state_list</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+    <style name="Widget.App.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="Widget.App.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.App.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="Widget.App.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textSize">13sp</item>
+        <item name="chipMinHeight">36dp</item>
+        <item name="chipCornerRadius">18dp</item>
+        <item name="chipStrokeWidth">0dp</item>
+    </style>
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_stroke_state</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxBackgroundColor">@color/bg_card</item>
+    </style>
+    <style name="Widget.App.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/bg_surface</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_booking_confirmation.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_booking_confirmation.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_login.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/item_movie_card.xml",
+        "source": "com.moviebooking.app-main-51:/layout/item_movie_card.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_payment.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/item_booking_history.xml",
+        "source": "com.moviebooking.app-main-51:/layout/item_booking_history.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_booking_history.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_booking_history.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_movie_details.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_movie_details.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/item_seat.xml",
+        "source": "com.moviebooking.app-main-51:/layout/item_seat.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_seat_selection.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_seat_selection.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/item_show_time.xml",
+        "source": "com.moviebooking.app-main-51:/layout/item_show_time.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_profile.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_home.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-mergeDebugResources-48:/layout/activity_register.xml",
+        "source": "com.moviebooking.app-main-51:/layout/activity_register.xml"
+    }
+]

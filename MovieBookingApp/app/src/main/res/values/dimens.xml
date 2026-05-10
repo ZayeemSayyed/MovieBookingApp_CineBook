@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+
+    <!-- Movie card -->
+    <dimen name="movie_card_width">160dp</dimen>
+    <dimen name="movie_poster_height">220dp</dimen>
+
+    <!-- Seat -->
+    <dimen name="seat_size">30dp</dimen>
+    <dimen name="seat_margin">3dp</dimen>
+    <dimen name="seat_radius">6dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_sm">13sp</dimen>
+    <dimen name="text_md">15sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+
+    <!-- Bottom Nav -->
+    <dimen name="bottom_nav_height">60dp</dimen>
+
+    <!-- Avatar -->
+    <dimen name="avatar_size">72dp</dimen>
+</resources>

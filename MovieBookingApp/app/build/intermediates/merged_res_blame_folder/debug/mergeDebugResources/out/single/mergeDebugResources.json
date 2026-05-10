@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_profile.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_logout_button.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_logout_button.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.moviebooking.app-main-51:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_seat_premium.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_seat_premium.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_item_booking_history.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/item_booking_history.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_dark_mode.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_dark_mode.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_person.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_placeholder_banner.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/placeholder_banner.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_rupee.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_rupee.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_badge.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_badge.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_item_seat.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/item_seat.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_eye_off.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_eye_off.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_gradient_poster_bottom.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/gradient_poster_bottom.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_item_show_time.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/item_show_time.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_register.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_placeholder_poster.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/placeholder_poster.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_item_movie_card.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/item_movie_card.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_movie_details.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_movie_details.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_eye.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_eye.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_clock.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_clock.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_history.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_certificate.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_certificate.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_rating_chip.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_rating_chip.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_seat.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_seat.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_gradient_banner_bottom.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/gradient_banner_bottom.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_lock.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_gradient_splash_top.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/gradient_splash_top.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_seat_booked.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_seat_booked.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_time_selected.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_time_selected.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/color_chip_state_list.xml.flat",
+        "source": "com.moviebooking.app-main-51:/color/chip_state_list.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_favorite_outline.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_favorite_outline.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_notification.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_phone.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_time_normal.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_time_normal.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_payment.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_payment.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_avatar_circle.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_status_confirmed.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_status_confirmed.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_location.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_screen_indicator.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_screen_indicator.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_login.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_payment.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_home.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_search.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_booking_confirmation.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_booking_confirmation.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_seat_available.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_seat_available.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/color_text_input_stroke_state.xml.flat",
+        "source": "com.moviebooking.app-main-51:/color/text_input_stroke_state.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_seat_selection.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_seat_selection.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_seat_recliner.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_seat_recliner.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_status_cancelled.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_status_cancelled.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_seat_selected.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_seat_selected.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_clapperboard.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_clapperboard.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_ticket.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_ticket.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_email.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_bg_avatar.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_booking_history.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_booking_history.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_movie.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_movie.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/color_chip_text_state_list.xml.flat",
+        "source": "com.moviebooking.app-main-51:/color/chip_text_state_list.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_check_circle.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/color_bottom_nav_state_list.xml.flat",
+        "source": "com.moviebooking.app-main-51:/color/bottom_nav_state_list.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_favorite_filled.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_favorite_filled.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/layout_activity_main.xml.flat",
+        "source": "com.moviebooking.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_home.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.moviebooking.app-main-51:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.moviebooking.app-debug-49:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.moviebooking.app-main-51:/mipmap-anydpi/ic_launcher_round.xml"
+    }
+]
